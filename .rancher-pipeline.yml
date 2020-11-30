@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: infoubicatecl/${CICD_GIT_REPO_NAME}/helloworld:latest
+      tag: infoubicatecl/${CICD_GIT_REPO_NAME}/rancher-demo:latest
       pushRemote: true
       registry: index.docker.io
 - name: Deploy
